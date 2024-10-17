@@ -1,0 +1,11 @@
+.productTitle {
+    color: inherit; 
+    text-decoration: none; 
+    transition: color 0.3s, text-decoration 0.3s; 
+  }
+  
+  .productTitle:hover {
+    color: #3745e3; 
+    text-decoration: underline;
+  }
+  

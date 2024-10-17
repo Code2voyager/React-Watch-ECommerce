@@ -1,0 +1,71 @@
+.Login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 120px;
+    
+}
+.container{
+    height: 62.5vh;
+}
+
+.Login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login input[type="email"],
+.Login input[type="password"],
+.Login input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+
+.Login input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #00059f;
+
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.Login input[type="submit"]:hover {
+    background-color: #91C8E4;
+    color: black;
+}
+
+.Login p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Login a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #00059f;
+    margin-top: 20px;
+}
+
+.Login a:hover {
+    text-decoration: underline; 
+}
+.errorMsg{
+    color: red;
+   
+    font-size: 1rem;
+  }

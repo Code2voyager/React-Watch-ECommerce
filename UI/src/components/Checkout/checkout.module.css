@@ -1,0 +1,28 @@
+.stepper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stepper-link {
+    position: relative;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .step-line {
+    height: 2px; 
+    width: 100%;
+    background-color: #070606; 
+    margin: 0; 
+    position: relative;
+  }
+  
+  .active {
+    font-weight: bold; 
+  }
+  
+  .completed {
+    color: green; 
+  }
+  

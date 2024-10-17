@@ -1,0 +1,58 @@
+.bannerContainer {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.productCard {
+  transition: transform 0.3s;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+}
+
+.productImage {
+  height: 200px; 
+  object-fit: contain;
+}
+
+.productLink {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.productLink:hover {
+  text-decoration: underline; 
+}
+
+.addToCartBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.addToCartBtn:hover {
+  background-color: #0056b3; 
+}
+
+.carousel-caption h3 {
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important; 
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important; 
+}
