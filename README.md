@@ -1,0 +1,1 @@
+The Watch E-commerce Application is a dynamic, feature-rich web application designed for buying and selling watches. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), it provides an intuitive user interface and efficient backend functionality for a seamless shopping experience.
